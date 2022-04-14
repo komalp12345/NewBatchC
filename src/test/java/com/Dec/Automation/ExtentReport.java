@@ -84,5 +84,17 @@ public class ExtentReport {
 			 
 			 WebElement opt = (driver.findElement(By.xpath("//a[contains(text(),'Scheduled Test Management')]")));
 			 opt.click();
-	 }		
+	 }	
+	public void m4()
+	 {
+		//report generation starts 
+		
+			 ex.createTest("Select option");
+			 
+			 WebElement testplan = driver.findElement(By.xpath("//span[contains(text(),'Test Plan Management')]"));
+			 testplan.click();
+			 
+			 WebElement opt = (driver.findElement(By.xpath("//a[contains(text(),'Scheduled Test Management')]")));
+			 opt.click();
+}
 }
